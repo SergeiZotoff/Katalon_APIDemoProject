@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RESTcases" time="4" tests="1" failures="0" errors="0">
+   <testsuite name="RESTcases" tests="1" failures="0" errors="0" time="4" timestamp="2019-05-05 11:36:13" hostname="main - DESKTOP-8TRR29R" id="Test Suites/RESTcases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\main\\Katalon Studio\\API Demo Project 1\\Reports\\RESTcases\\20190505_113608"/>
+         <property name="logFiles" value="C:\\Users\\main\\Katalon Studio\\API Demo Project 1\\Reports\\RESTcases\\20190505_113608\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="main - DESKTOP-8TRR29R"/>
+         <property name="hostAddress" value="192.168.1.47"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+      </properties>
+      <testcase name="Test Cases/ListUsersTest" classname="Test Cases/ListUsersTest" status="PASSED">
+         <system-out><![CDATA[2019-05-05 11:36:13 - [TEST_CASE][PASSED] - Test Cases/ListUsersTest: Test Cases/ListUsersTest
+
+2019-05-05 11:36:13 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestService/ListUsers")): Send request successfully
+
+2019-05-05 11:36:16 - [MESSAGE][INFO] - HAR: C:\Users\main\Katalon Studio\API Demo Project 1\Reports\RESTcases\20190505_113608\requests\main\null.har
+
+2019-05-05 11:36:16 - [MESSAGE][PASSED] - Send request successfully
+
+2019-05-05 11:36:16 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("UserRestService/ListUsers")): Send request and verify the response successfully
+
+2019-05-05 11:36:17 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-05-05 11:36:17 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-05-05 11:36:17 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-05-05 11:36:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-05-05 11:36:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-05-05 11:36:17 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-05-05 11:36:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-05-05 11:36:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-05 11:36:17 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-05-05 11:36:17 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-05-05 11:36:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-05-05 11:36:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-05 11:36:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].id", "6"): Verify element property value successfully
+
+2019-05-05 11:36:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-05 11:36:17 - [TEST_STEP][PASSED] - verifyElementsCount(response, "data", 3): Verify element count successfully
+
+2019-05-05 11:36:17 - [MESSAGE][PASSED] - Verify element count successfully
+
+2019-05-05 11:36:17 - [TEST_STEP][PASSED] - verifyResponseStatusCodeInRange(response, 100, 200): Verify response status code successfully
+
+2019-05-05 11:36:17 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-05 11:36:13 - [TEST_SUITE][PASSED] - RESTcases: Test Cases/ListUsersTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

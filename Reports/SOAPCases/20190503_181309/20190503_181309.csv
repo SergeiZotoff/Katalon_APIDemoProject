@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SOAPCases,,,,2019-05-03 18:13:14,2019-05-03 18:13:20,"6,076s",PASSED
+,,,,,,,
+Test Cases/CalculatorTests/Addition,,,,2019-05-03 18:13:14,2019-05-03 18:13:19,"5,088s",PASSED
+"sendRequest(findTestObject(""CalculatorSoapService/Addition""))",,,,2019-05-03 18:13:14,2019-05-03 18:13:17,"2,861s",PASSED
+"response = sendRequestAndVerify(findTestObject(""CalculatorSoapService/Addition""))",,,,2019-05-03 18:13:17,2019-05-03 18:13:19,"1,862s",PASSED
+"verifyElementPropertyValue(response, ""AddResponse.AddResult"", ""6"")",,,,2019-05-03 18:13:19,2019-05-03 18:13:19,"0,034s",PASSED
+,,,,,,,
+Test Cases/GetBankDetails,,,,2019-05-03 18:13:19,2019-05-03 18:13:20,"0,697s",PASSED
+"sendRequest(findTestObject(""SOAP/getBank""))",,,,2019-05-03 18:13:19,2019-05-03 18:13:20,"0,550s",PASSED

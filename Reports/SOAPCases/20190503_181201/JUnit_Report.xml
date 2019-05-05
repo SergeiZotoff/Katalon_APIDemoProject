@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SOAPCases" time="6" tests="2" failures="0" errors="0">
+   <testsuite name="SOAPCases" tests="2" failures="0" errors="0" time="6" timestamp="2019-05-03 18:12:05" hostname="main - DESKTOP-8TRR29R" id="Test Suites/SOAPCases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\main\\Katalon Studio\\API Demo Project 1\\Reports\\SOAPCases\\20190503_181201"/>
+         <property name="logFiles" value="C:\\Users\\main\\Katalon Studio\\API Demo Project 1\\Reports\\SOAPCases\\20190503_181201\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="main - DESKTOP-8TRR29R"/>
+         <property name="hostAddress" value="192.168.1.47"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+      </properties>
+      <testcase name="Test Cases/CalculatorTests/Addition" classname="Test Cases/CalculatorTests/Addition" status="PASSED">
+         <system-out><![CDATA[2019-05-03 18:12:05 - [TEST_CASE][PASSED] - Test Cases/CalculatorTests/Addition: Test Cases/CalculatorTests/Addition
+
+2019-05-03 18:12:06 - [TEST_STEP][PASSED] - sendRequest(findTestObject("CalculatorSoapService/Addition")): Send request successfully
+
+2019-05-03 18:12:08 - [MESSAGE][INFO] - HAR: C:\Users\main\Katalon Studio\API Demo Project 1\Reports\SOAPCases\20190503_181201\requests\main\null.har
+
+2019-05-03 18:12:08 - [MESSAGE][PASSED] - Send request successfully
+
+2019-05-03 18:12:08 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("CalculatorSoapService/Addition")): Send request and verify the response successfully
+
+2019-05-03 18:12:10 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-05-03 18:12:10 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-05-03 18:12:10 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-05-03 18:12:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-05-03 18:12:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-05-03 18:12:10 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-05-03 18:12:10 - [TEST_STEP][PASSED] - getResponseText()).contains("AddResult"): null
+
+2019-05-03 18:12:10 - [TEST_STEP][PASSED] - verifyElementText(response, "AddResponse.AddResult", "6"): Verify element text successfully
+
+2019-05-03 18:12:10 - [MESSAGE][PASSED] - Verify element text successfully
+
+2019-05-03 18:12:10 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-05-03 18:12:10 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-05-03 18:12:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "AddResponse.AddResult", "6"): Verify element property value successfully
+
+2019-05-03 18:12:10 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GetBankDetails" classname="Test Cases/GetBankDetails" status="PASSED">
+         <system-out><![CDATA[2019-05-03 18:12:10 - [TEST_CASE][PASSED] - Test Cases/GetBankDetails: Test Cases/GetBankDetails
+
+2019-05-03 18:12:11 - [TEST_STEP][PASSED] - sendRequest(findTestObject("SOAP/getBank")): Send request successfully
+
+2019-05-03 18:12:11 - [MESSAGE][INFO] - HAR: C:\Users\main\Katalon Studio\API Demo Project 1\Reports\SOAPCases\20190503_181201\requests\main\null.har
+
+2019-05-03 18:12:11 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-03 18:12:05 - [TEST_SUITE][PASSED] - SOAPCases: Test Cases/GetBankDetails]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

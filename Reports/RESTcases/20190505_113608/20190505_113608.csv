@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RESTcases,,,,2019-05-05 11:36:13,2019-05-05 11:36:17,"4,634s",PASSED
+,,,,,,,
+Test Cases/ListUsersTest,,,,2019-05-05 11:36:13,2019-05-05 11:36:17,"4,343s",PASSED
+"sendRequest(findTestObject(""UserRestService/ListUsers""))",,,,2019-05-05 11:36:13,2019-05-05 11:36:16,"2,780s",PASSED
+"response = sendRequestAndVerify(findTestObject(""UserRestService/ListUsers""))",,,,2019-05-05 11:36:16,2019-05-05 11:36:17,"1,212s",PASSED
+"verifyElementPropertyValue(response, ""data[1].first_name"", ""Charles"")",,,,2019-05-05 11:36:17,2019-05-05 11:36:17,"0,022s",PASSED
+"verifyElementPropertyValue(response, ""data[2].id"", ""6"")",,,,2019-05-05 11:36:17,2019-05-05 11:36:17,"0,023s",PASSED
+"verifyElementsCount(response, ""data"", 3)",,,,2019-05-05 11:36:17,2019-05-05 11:36:17,"0,028s",PASSED
+"verifyResponseStatusCodeInRange(response, 100, 200)",,,,2019-05-05 11:36:17,2019-05-05 11:36:17,"0,015s",PASSED
